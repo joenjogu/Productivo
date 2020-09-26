@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/work_menu"
+        android:title="work"
+        android:enabled="true"
+        android:icon="@drawable/working"/>
+
+    <item
+        android:id="@+id/tasks_menu"
+        android:title="tasks"
+        android:enabled="true"
+        android:icon="@drawable/task"/>
+
+    <item
+        android:id="@+id/stats_menu"
+        android:title="stats"
+        android:enabled="true"
+        android:icon="@drawable/graph"/>
+
+</menu>

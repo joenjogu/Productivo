@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#2A22E2</color>
     <color name="colorPrimaryDark">#2A22E2</color>
     <color name="colorAccent">#F93595</color>
 
     <color name="colorLightPink">#F64EA7</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGreen">#1EC32C</color>
+    <color name="colorRed">#FF0000</color>
+    
+    <color name="colorGreenGradientStart">#80FF72</color>
+    <color name="colorGreenGradientEnd">#7EE8FA</color>
+    <color name="colorOrangeGradientStart">#FC575E</color>
+    <color name="colorOrangeGradientEnd">#F7B42C</color>
+    <color name="colorRedGradientEnd">#F53844</color>
+    <color name="colorRedGradientStart">#C81F70</color>
 </resources>

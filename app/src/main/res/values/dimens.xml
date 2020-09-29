@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_diameter">90dp</dimen>
+    <dimen name="clock_width">300dp</dimen>
+    <dimen name="clock_height">300dp</dimen>
+</resources>

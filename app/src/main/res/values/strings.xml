@@ -2,4 +2,7 @@
     <string name="app_name">Productivo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="Break">Break</string>
+    <string name="end">End</string>
 </resources>

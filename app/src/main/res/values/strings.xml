@@ -5,4 +5,5 @@
     <string name="start">Start</string>
     <string name="Break">Break</string>
     <string name="end">End</string>
+    <string name="task_icon">task_icon</string>
 </resources>

@@ -15,4 +15,5 @@
     <color name="colorOrangeGradientEnd">#F7B42C</color>
     <color name="colorRedGradientEnd">#F53844</color>
     <color name="colorRedGradientStart">#C81F70</color>
+    <color name="black">#000000</color>
 </resources>

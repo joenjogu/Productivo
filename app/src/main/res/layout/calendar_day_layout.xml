@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StatsFragment">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <com.kizitonwose.calendarview.CalendarView
-        android:id="@+id/stats_calendar"
-        app:cv_dayViewResource="@layout/calendar_day_layout"
-        app:cv_maxRowCount="1"
-        app:cv_scrollMode="paged"
-        app:cv_orientation="horizontal"
-        app:cv_hasBoundaries="false"
-        app:cv_inDateStyle="firstMonth"
+    <TextView
+        android:id="@+id/calendar_day_text"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="22"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

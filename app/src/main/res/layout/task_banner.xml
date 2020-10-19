@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:elevation="0dp"
+        app:cardCornerRadius="12dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_completed"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_completed_text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="10" />
+
+            <TextView
+                android:id="@+id/tv_completed_text"
+                tools:text="completed"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_margin="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_completed" />
+
+            <TextView
+                android:id="@+id/tv_inprogress"
+                tools:text="20"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/tv_inprogress_text"
+                />
+
+            <TextView
+                android:id="@+id/tv_inprogress_text"
+                tools:text="in progress"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_inprogress"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
